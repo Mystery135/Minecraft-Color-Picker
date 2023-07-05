@@ -7,4 +7,5 @@ function updateValue() {
     }else{
         log.innerHTML = input.value.replace(/\n/g, "<br>");
     }
+    //test
 }
