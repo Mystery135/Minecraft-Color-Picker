@@ -1,0 +1,107 @@
+/* https://realtimecolors.com/?colors=d6f5dd-010402-4bd2ae-051114-4bb3d2 */
+
+:root{
+    --text: #d6f5dd;
+    --background: #010402;
+    --primary-button: #4bd2ae;
+    --secondary-button: #051114;
+    --accent: #4bb3d2;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/MinecraftRegular-Bmg3.otf');
+  }
+html{
+    height: 100vh;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,a,h1,h2,h3,h4,h5,h6,li{
+    color: var(--text);
+}
+
+h1, h2, h3{
+    font-family: 'Hind', sans-serif;
+
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    text-align: center;
+}
+
+body{
+    background-color: var(--background);
+    height: 100%;
+}
+nav{
+    padding: 30px 0;
+    width: 100%;
+}
+.subtitle{
+    margin-top: 20px;
+}
+main{
+    width: 100%;
+}
+.tools{
+    margin-top: 150px;
+    width: 100%;
+}
+.cards{
+    margin: 30px auto;
+    width: 70%;
+    justify-content: space-evenly;
+    gap: 10%;
+    display: flex;
+}
+.card{
+    border-radius: 5px;
+    flex: 1;
+    background-color: var(--accent);
+    width: 30%;
+    height: 250px;
+}
+.cardtitle{
+    margin-top: 20px;
+}
+.cardicon{
+    height: 500px;
+    position: relative;
+    margin-top: 15%;
+}
+#chat-input{
+    margin-top: 150px;
+}
+#chatinputbox-label{
+font-size: 2rem;
+margin-bottom: 20px;
+}
+#chatinputbox{
+    border-radius: 5px;
+    background-color: beige;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+#chat-output{
+    word-wrap: break-word;
+    margin-top: 100px;
+    font-family: "Minecraft";
+}
